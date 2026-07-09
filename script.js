@@ -132,7 +132,7 @@ createPDF(null);
 
 
 logo.src =
-"https://di-uploads-development.dealerinspire.com/byerschevy/uploads/2023/01/byers-chevy-logo.png";
+"logo.png";
 
 
 
