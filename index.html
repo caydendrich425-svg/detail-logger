@@ -1,0 +1,17 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>BYER'S CHEVY Detail Logger</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.5.31/jspdf.plugin.autotable.min.js"></script>
+</head><body>
+<h1>BYER'S CHEVY</h1><h3>Cayden Davenport #204</h3>
+<p><strong>Place a file named <code>logo.png</code> in this folder to include it in exported PDFs.</strong></p>
+<div><b>Total Vehicles:</b> <span id=count>0</span> | <b>Total Time:</b> <span id=tot>0 hr 0 min</span></div>
+<form id=f>
+<input type=date id=date required><input id=stock placeholder="Stock #" required><input id=vin maxlength=8 placeholder="Last 8 VIN" required><input type=number id=mileage placeholder=Mileage required><input id=type placeholder="Detail Type" required><input type=number id=hrs value=0><input type=number id=mins value=0><textarea id=notes></textarea><button>Save</button></form>
+<button id=pdf>Create PDF</button><button id=clear>Clear All</button>
+<table border=1><thead><tr><th>Date</th><th>Stock</th><th>VIN</th><th>Mileage</th><th>Type</th><th>Time</th><th>Notes</th></tr></thead><tbody id=tb></tbody></table>
+<script src="script.js"></script></body></html>
