@@ -266,12 +266,6 @@ headStyles:{
   textColor:[255,255,255]
 }
 
-fontStyle:"bold",
-
-halign:"center"
-
-}
-
 });
 
 
