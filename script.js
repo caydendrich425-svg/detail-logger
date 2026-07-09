@@ -158,7 +158,7 @@ img,
 
 
 
-doc.setFont("montserrat","bold");
+doc.setFont("helvetica","bold");
 
 doc.setFontSize(18);
 
@@ -250,7 +250,7 @@ theme:"grid",
 
 styles:{
 
-font:"montserrat",
+font:"helvetica",
 
 fontSize:9,
 
@@ -260,6 +260,11 @@ cellPadding:4
 
 
 headStyles:{
+  fontStyle:"bold",
+  halign:"center",
+  fillColor:[21,137,188],
+  textColor:[255,255,255]
+}
 
 fontStyle:"bold",
 
@@ -291,7 +296,7 @@ doc.lastAutoTable.finalY + 12;
 
 
 doc.setFont(
-"montserrat",
+"helvetica",
 "bold"
 );
 
@@ -318,7 +323,7 @@ finalY+7
 
 
 doc.setFont(
-"montserrat",
+"helvetica",
 "normal"
 );
 
