@@ -158,7 +158,7 @@ img,
 
 
 
-doc.setFont("helvetica","bold");
+doc.setFont("montserrat","bold");
 
 doc.setFontSize(18);
 
@@ -173,7 +173,7 @@ doc.text(
 
 doc.setFontSize(11);
 
-doc.setFont("helvetica","normal");
+doc.setFont("montserrat","normal");
 
 doc.text(
 "BYER'S AUTO",
@@ -250,7 +250,7 @@ theme:"grid",
 
 styles:{
 
-font:"helvetica",
+font:"montserrat",
 
 fontSize:9,
 
@@ -291,7 +291,7 @@ doc.lastAutoTable.finalY + 12;
 
 
 doc.setFont(
-"helvetica",
+"montserrat",
 "bold"
 );
 
@@ -318,7 +318,7 @@ finalY+7
 
 
 doc.setFont(
-"helvetica",
+"montserrat",
 "normal"
 );
 
